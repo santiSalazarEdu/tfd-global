@@ -96,6 +96,14 @@
     max-width:640px;margin-top:24px;font-size:clamp(16px,2.2vw,19px);color:var(--mfg);
   }
   .hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+  .hero-degree{
+    display:flex;flex-direction:column;gap:6px;margin-top:28px;
+    padding:22px 26px;border:1px solid hsl(166 100% 50% / .42);border-radius:14px;
+    background:hsl(166 100% 50% / .05);max-width:660px;
+  }
+  .hero-degree .hd-eyebrow{font-size:13px;color:var(--mfg);font-weight:500}
+  .hero-degree .hd-title{font-size:clamp(21px,3.4vw,32px);font-weight:800;letter-spacing:-.02em;line-height:1.1}
+  .hero-degree .hd-proof{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.05em;color:var(--mfg);text-transform:uppercase;margin-top:3px}
 
   /* SECTION SHELL */
   section{padding:72px 0;border-top:1px solid var(--border)}
@@ -194,6 +202,11 @@
   <div class="wrap">
     <div class="eyebrow">TFD · Global</div>
     <h1>Un founder global.<br /><em>Viaje o no.</em></h1>
+    <div class="hero-degree">
+      <span class="hd-eyebrow">Pregrado registrado ante el MEN, y Maestría con</span>
+      <span class="hd-title">Doble titulación de <span class="teal">Arizona State University</span></span>
+      <span class="hd-proof">ASU · número 1 en innovación en Estados Unidos, por encima de MIT y Stanford</span>
+    </div>
     <p class="sub">Diseñamos el programa para que te gradúes con perspectiva, red y credenciales globales, sin importar si cruzas una frontera. El mundo te llega al HQ. Y cuando quieras, sales a buscarlo.</p>
     <div class="cta">
       <a href="#aplicar" class="btn btn-primary">Aplicar ahora →</a>
@@ -214,7 +227,7 @@
       <div class="layer included">
         <div class="tag">Incluido · para los 20</div>
         <h3>El mundo, en tu HQ</h3>
-        <p class="mfg">Contenido de Arizona State University, certificaciones internacionales, conferencistas y compañeros de intercambio llegando a tu base. Sin comprar un tiquete.</p>
+        <p class="mfg">Maestría con doble titulación de Arizona State University, contenido de ASU, certificaciones internacionales, conferencistas y compañeros de intercambio llegando a tu base. Sin comprar un tiquete.</p>
         <div class="note">Hace parte de tu programa.</div>
       </div>
       <div class="layer">
@@ -235,6 +248,22 @@
       <h2>El mundo, en tu HQ</h2>
       <p>Lo global empieza el primer día, en Medellín. Esto recibe cada founder de la cohorte, sin importar su presupuesto de viaje.</p>
     </div>
+
+    <div class="sello" style="margin-bottom:28px">
+      <div class="inner">
+        <div class="eyebrow">El sello · la credencial</div>
+        <h3>Maestría con <em>doble titulación de Arizona State University.</em></h3>
+        <p>Tu pregrado queda registrado ante el MEN, liderado por CEIPA powered by ASU. Y tu Maestría en Emprendimiento Tecnológico suma la doble titulación con el Master's en Global Technology and Development de Arizona State University, número 1 en innovación en Estados Unidos por encima de MIT y Stanford. La ganas desde el HQ, sin importar si viajas. Para un papá, eso cambia la conversación completa. Para ti, es la credencial que respalda la empresa que ya estás construyendo.</p>
+        <div class="badgewall">
+          <span class="badge on">Maestría: Emprendimiento Tecnológico + Global Tech &amp; Development (ASU)</span>
+          <span class="badge">Pregrado registrado ante el MEN</span>
+          <span class="badge">ASU · #1 en innovación en EE. UU.</span>
+          <span class="badge">20+ ASU digital badges</span>
+          <span class="badge">Certificación internacional de inglés</span>
+        </div>
+      </div>
+    </div>
+
     <div class="grid three">
 
       <div class="card">
@@ -326,26 +355,6 @@
     <div class="costnote">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
       <p><strong style="color:var(--fg)">Transparencia.</strong> La capa Sal al mundo y las certificaciones internacionales tienen costo adicional a la matrícula. Las eliges según tu momento y tu presupuesto; ninguna es obligatoria para graduarte. El piso global ya está incluido en tu programa.</p>
-    </div>
-  </div>
-</section>
-
-<!-- SELLO: DOBLE TITULACION -->
-<section>
-  <div class="wrap">
-    <div class="sello">
-      <div class="inner">
-        <div class="eyebrow">El sello</div>
-        <h3>Maestría con <em>doble titulación de Arizona State University.</em></h3>
-        <p>Tu pregrado queda registrado ante el MEN, liderado por CEIPA powered by ASU. Y tu Maestría en Emprendimiento Tecnológico suma la doble titulación con el Master's en Global Technology and Development de Arizona State University, número 1 en innovación en Estados Unidos por encima de MIT y Stanford. Para un papá, eso cambia la conversación completa. Para ti, es la credencial que respalda la empresa que ya estás construyendo.</p>
-        <div class="badgewall">
-          <span class="badge on">Maestría: Emprendimiento Tecnológico + Global Tech &amp; Development (ASU)</span>
-          <span class="badge">Pregrado registrado ante el MEN</span>
-          <span class="badge">ASU · #1 en innovación en EE. UU.</span>
-          <span class="badge">20+ ASU digital badges</span>
-          <span class="badge">Certificación internacional de inglés</span>
-        </div>
-      </div>
     </div>
   </div>
 </section>
