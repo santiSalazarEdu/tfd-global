@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<title>TFD &times; CEIPA &middot; User Journey</title>
+<meta name="robots" content="noindex">
+<style>
+  body{margin:0;background:#000;}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+  .bp-root{
+    --bg:#0A0A0A; --card:#0F0F0F; --teal:#00FFC3; --ceipa:#6E97C0;
+    --fg:hsl(210 40% 96%); --mut:hsl(215 25% 72%); --bd:hsl(217 33% 17%);
+    background:var(--bg); color:var(--fg);
+    font-family:Inter,system-ui,sans-serif; border:1px solid var(--bd);
+    border-radius:14px; padding:20px; box-sizing:border-box; width:1760px;
+  }
+  .bp-head{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;margin-bottom:6px;}
+  .bp-title{font-weight:900;letter-spacing:-0.03em;font-size:18px;}
+  .bp-title .x{color:var(--teal);padding:0 2px;}
+  .bp-legend{display:flex;gap:8px;flex-wrap:wrap;}
+  .lg{font-size:10.5px;font-weight:600;padding:3px 9px;border-radius:9999px;border:1px solid var(--bd);}
+  .lg-user{color:var(--fg);}
+  .lg-tfd{color:var(--teal);border-color:rgba(0,255,195,.35);}
+  .lg-ceipa{color:var(--ceipa);border-color:rgba(110,151,192,.35);}
+  .lg-gap{color:var(--mut);}
+  .bp-scrollnote{font-size:11px;color:var(--mut);margin:8px 0 10px;}
+  .bp-grid{display:grid;grid-template-columns:130px repeat(8, minmax(186px,1fr));gap:7px;}
+  .cell{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 11px;font-size:11.5px;line-height:1.5;color:var(--mut);}
+  .cell b{color:var(--fg);font-weight:700;}
+  .cell i{color:var(--fg);font-style:italic;}
+  .ph{background:transparent;border:none;padding:4px 11px 8px;font-weight:800;font-size:12.5px;color:var(--fg);letter-spacing:-0.01em;display:flex;align-items:baseline;gap:7px;}
+  .ph .n{font-family:ui-monospace,monospace;font-size:11px;color:var(--teal);font-weight:700;}
+  .corner{background:transparent;border:none;color:var(--mut);font-size:10.5px;display:flex;align-items:flex-end;font-weight:600;}
+  .lane{font-weight:800;font-size:12.5px;color:var(--fg);display:flex;flex-direction:column;justify-content:center;background:#121212;}
+  .lane .sub{font-weight:500;font-size:10px;color:var(--mut);margin-top:2px;}
+  .lane-user{border-left:3px solid var(--fg);}
+  .lane-tfd{border-left:3px solid var(--teal);}
+  .lane-ceipa{border-left:3px solid var(--ceipa);}
+  .lane-gap{border-left:3px solid var(--mut);}
+  .c-user{border-top:2px solid rgba(232,236,241,.45);}
+  .c-tfd{border-top:2px solid rgba(0,255,195,.5);}
+  .c-ceipa{border-top:2px solid rgba(110,151,192,.55);}
+  .c-gap{border-top:2px solid rgba(140,150,165,.4);background:#0c0c0c;}
+  .empty{color:#3a3f47;text-align:center;font-size:16px;}
+  .dim{opacity:.78;}
+  .tag{display:inline-block;font-family:ui-monospace,monospace;font-size:9.5px;color:#0A0A0A;background:var(--teal);border-radius:5px;padding:1px 5px;font-weight:700;margin-top:3px;}
+  .bp-foot{margin-top:14px;padding-top:12px;border-top:1px solid var(--bd);font-size:11px;color:var(--mut);line-height:1.7;}
+  .bp-foot .k{color:var(--teal);font-weight:700;}
+</style></head><body>
+<div class="bp-root">
+  <div class="bp-head">
+    <div class="bp-title">TFD <span class="x">×</span> CEIPA · Blueprint de Admisión y Matrícula</div>
+    <div class="bp-legend">
+      <span class="lg lg-user">Founder</span>
+      <span class="lg lg-tfd">TFD (primer back)</span>
+      <span class="lg lg-ceipa">CEIPA (segundo back)</span>
+      <span class="lg lg-gap">Consideraciones / gaps</span>
+    </div>
+  </div>
+  <div class="bp-scrollnote">Recorrido de las 8 fases, de izquierda a derecha.</div>
+  <div class="bp-grid">
+    <div class="cell corner">Carril \ Fase</div>
+    <div class="ph"><span class="n">01</span>Descubrimiento</div>
+    <div class="ph"><span class="n">02</span>Aplicación + Selección</div>
+    <div class="ph"><span class="n">03</span>Cierre</div>
+    <div class="ph"><span class="n">04</span>Gestión Documental</div>
+    <div class="ph"><span class="n">05</span>Usuario Ubisis + Pago</div>
+    <div class="ph"><span class="n">06</span>Homologación</div>
+    <div class="ph"><span class="n">07</span>Matrícula / Registro</div>
+    <div class="ph"><span class="n">08</span>Founder Activo</div>
+
+    <div class="cell lane lane-user">Founder<br><span class="sub">experiencia</span></div>
+    <div class="cell c-user">Descubre TFD (orgánico) o recibe contacto del SDR.</div>
+    <div class="cell c-user">Aplica en la web. 3 filtros: <b>pre-assessment → entrevista IA → reto en vivo</b>. O pide hablar con alguien.</div>
+    <div class="cell c-user">Conversa con Santi (closer) y decide entrar.</div>
+    <div class="cell c-user">Sube sus documentos en la plataforma de CEIPA (link de Felipe).</div>
+    <div class="cell c-user">Ingresa a Ubisis y paga: anual o débito automático mensual.</div>
+    <div class="cell c-user">Declara experiencia previa para homologar (si aplica).</div>
+    <div class="cell c-user">Queda matriculado, asignado a su grupo / cohorte.</div>
+    <div class="cell c-user">Construye su startup. Sprints en su propio tiempo, HQ híbrido.</div>
+
+    <div class="cell lane lane-tfd">TFD<br><span class="sub">primer back</span></div>
+    <div class="cell c-tfd">2 on-ramps → <b>1 pipeline en ATTIO</b>. Orgánico autocrea record; SDR prospecta en Attio.</div>
+    <div class="cell c-tfd"><b>Selección = puerta única, pre-pago.</b> Resultado se escribe en Attio. Bypass: <i>lean qualification</i> + llamada SDR si quiere hablar.</div>
+    <div class="cell c-tfd">Santi cierra solo a candidatos <b>ya admitidos</b>.</div>
+    <div class="cell c-tfd">SDR hace follow-up: asegura que el founder suba los documentos.</div>
+    <div class="cell c-tfd dim">Monitorea estado del pago en Attio. (No opera Ubisis.)</div>
+    <div class="cell c-tfd dim">Insumo: declaración del founder. <span class="tag">pendiente mapear</span></div>
+    <div class="cell c-tfd">Mantiene su propio registro de founders activos.</div>
+    <div class="cell c-tfd"><b>LMS propio</b> (lo construye Santi). Define alertas tempranas. Reporte de activos por periodo.</div>
+
+    <div class="cell lane lane-ceipa">CEIPA<br><span class="sub">segundo back</span></div>
+    <div class="cell c-ceipa empty">—</div>
+    <div class="cell c-ceipa empty">—</div>
+    <div class="cell c-ceipa empty">—</div>
+    <div class="cell c-ceipa">Plataforma <b>legacy</b> (Felipe) recibe docs → Gestión Documental valida (humano) + <b>cruce ICFES</b>.</div>
+    <div class="cell c-ceipa"><b>ASA</b> crea usuario en <b>UBISIS</b> → pago auto (Ubisis) o manual (banco/efectivo) + soporte IT.</div>
+    <div class="cell c-ceipa">Adjudica homologación (RAP) antes del grupo. <span class="tag">pendiente mapear</span></div>
+    <div class="cell c-ceipa">ASA agrega a grupo → matrícula oficial. <b>Cruce periódico</b> Ubisis vs activos TFD.</div>
+    <div class="cell c-ceipa">Profesores cargan notas en Ubisis (manual). ASA + Financiero: deuda / débito manual.</div>
+
+    <div class="cell lane lane-gap">Consideraciones<br><span class="sub">cross-cutting</span></div>
+    <div class="cell c-gap">Pre-pago todo vive en <b>Attio</b>. SDR usa Attio. No migrar a HubSpot.</div>
+    <div class="cell c-gap">Selección <b>siempre antes del pago</b>. Lean gate descalifica: sin ICFES · no founder FT (ni potencial) · ya tiene título.</div>
+    <div class="cell c-gap">El <b>cierre</b> es el trigger que dispara el handoff a CEIPA.</div>
+    <div class="cell c-gap">Lista de documentos <span class="tag">pendiente</span>. Validación humana, no automática (aún).</div>
+    <div class="cell c-gap"><b>Ubisis NO tiene API</b> → todo el puente TFD↔CEIPA es manual / CSV.</div>
+    <div class="cell c-gap">Homologación: el "2x" se paga aparte. <span class="tag">pendiente</span></div>
+    <div class="cell c-gap"><b>2 fuentes de verdad</b>: Attio (pre-pago) · Ubisis (post-pago). Llave = ID del founder (aún no).</div>
+    <div class="cell c-gap">Pendientes: alertas tempranas · integración de notas · política de matrícula con deuda.</div>
+  </div>
+  <div class="bp-foot">
+    <span class="k">Llave de integración:</span> ID del founder (aún sin implementar, "do things that don't scale") ·
+    <span class="k">Calendario:</span> admisiones Oct y Feb · aplicaciones cierran jul (¿ago?) · inicio Oct ·
+    <span class="k">Selección:</span> 3 etapas, pre-pago
+  </div>
+</div>
+</body></html>
